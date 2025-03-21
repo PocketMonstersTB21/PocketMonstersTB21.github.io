@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
         const email = document.getElementById("loginEmail").value;
         const password = document.getElementById("loginPassword").value;
 
-        if (email === "admin@pokemongo.com" && password === "password") {
+        if (email === "admin" && password === "1234") {
             document.getElementById("navbar-guest").classList.add("d-none");
             document.getElementById("navbar-auth").classList.remove("d-none");
 
